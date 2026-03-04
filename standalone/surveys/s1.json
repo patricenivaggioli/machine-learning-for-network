@@ -1,0 +1,47 @@
+{
+  "title": "Lab feedback",
+  "questions": [
+    {
+      "question": "I learned what I needed from this lab: ",
+      "answers": [
+        {
+          "text": "0 - Not at all",
+          "value": "0"
+        },
+        {
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "text": "5 - Definitely",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "question": "Will I do another lab like this one: ",
+      "answers": [
+        {
+          "text": "No",
+          "value": "0"
+        },
+        {
+          "text": "Yes",
+          "value": "1"
+        }
+      ]
+    }    
+  ]
+}
