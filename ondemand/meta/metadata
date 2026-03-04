@@ -7,30 +7,24 @@
     "displayMode": "terminal",
     "chapters": [
         {
-            "title": "Overview",
-            "file": "000-overview",
+            "title": "Introduction to ML",
+            "file": "01_intro_ml",
             "panel": "none"
         },
         {
-            "title": "Title 1",
-            "file": "100-chapter1",
-            "panel": "terminal"
+            "title": "Introduction to DL",
+            "file": "02_intro_dl",
+            "panel": "none"
         },
         {
-            "title": "Title 2",
-            "file": "200-chapter2",
-            "panel": "ide"
-        },
-        {
-            "title": "Title 3",
-            "file": "300-chapter3",
-            "panel": "terminal",
-            "externalPage": "https://%%CONTENTURL%%/lab.html"
-        },
-        {
-            "title": "Title 4",
-            "file": "",
+            "title": "ML Supervised",
+            "file": "ML_Supervised_NetFlow_Classification",
             "panel": "jupyter"
+        },
+        {
+            "title": "ML Unsupervised",
+            "file": "ML_Unsupervised_NetFlow_Classification",
+            "panel": "jupyter",
         }
     ]
 }
