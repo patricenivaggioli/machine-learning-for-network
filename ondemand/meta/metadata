@@ -24,7 +24,7 @@
         {
             "title": "ML Unsupervised",
             "file": "ML_Unsupervised_NetFlow_Classification",
-            "panel": "jupyter",
+            "panel": "jupyter"
         }
     ]
 }
