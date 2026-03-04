@@ -104,7 +104,7 @@ Where:
 </div>
 <div>
 
-<img src="assets/neuron.svg" style="width: 100%; max-height: 70vh;" />
+<img src="images/neuron.svg" style="width: 100%; max-height: 70vh;" />
 
 </div>
 </div>
@@ -126,7 +126,7 @@ A neural network stacks layers:
 </div>
 <div>
 
-<img src="assets/stacked_layers.svg" style="width: 100%; max-height: 70vh;" />
+<img src="images/stacked_layers.svg" style="width: 100%; max-height: 70vh;" />
 
 </div>
 </div>
@@ -152,7 +152,7 @@ Without activation, multiple layers collapse to a linear model.
 </div>
 <div>
 
-<img src="assets/activation_functions.svg" style="width: 100%; max-height: 70vh;" />
+<img src="images/activation_functions.svg" style="width: 100%; max-height: 70vh;" />
 
 </div>
 </div>

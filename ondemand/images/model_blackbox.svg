@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <defs>
+    <style>
+      .title { font: 700 42px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+      .label { font: 600 26px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+      .text  { font: 500 22px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #374151; }
+      .small { font: 500 18px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #4b5563; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="800" fill="#f9fafb"/>
+  <text x="700" y="70" text-anchor="middle" class="title">What is a Model?</text>
+
+  <text x="170" y="150" class="label">Inputs (x)</text>
+  <rect x="80" y="190" rx="14" ry="14" width="180" height="120" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="170" y="255" text-anchor="middle" class="text">Image</text>
+  <rect x="80" y="340" rx="14" ry="14" width="180" height="120" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="170" y="405" text-anchor="middle" class="text">Text</text>
+  <rect x="80" y="490" rx="14" ry="14" width="180" height="120" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="170" y="555" text-anchor="middle" class="text">Tabular</text>
+
+  <rect x="430" y="200" rx="28" ry="28" width="540" height="380" fill="#eef2ff" stroke="#4f46e5" stroke-width="3"/>
+  <text x="700" y="315" text-anchor="middle" class="label">Model fθ</text>
+  <text x="700" y="365" text-anchor="middle" class="text">Parameterized function</text>
+  <text x="700" y="410" text-anchor="middle" class="small">θ = weights + biases</text>
+  <text x="700" y="455" text-anchor="middle" class="small">Learns mapping: x → ŷ</text>
+
+  <text x="1160" y="150" class="label">Predictions (ŷ)</text>
+  <rect x="1080" y="220" rx="14" ry="14" width="220" height="120" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="1190" y="285" text-anchor="middle" class="text">Class label</text>
+  <rect x="1080" y="380" rx="14" ry="14" width="220" height="120" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="1190" y="445" text-anchor="middle" class="text">Probability</text>
+  <rect x="1080" y="540" rx="14" ry="14" width="220" height="120" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+  <text x="1190" y="605" text-anchor="middle" class="text">Numeric value</text>
+
+  <line x1="260" y1="250" x2="430" y2="250" stroke="#374151" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="260" y1="400" x2="430" y2="390" stroke="#374151" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="260" y1="550" x2="430" y2="530" stroke="#374151" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <line x1="970" y1="280" x2="1080" y2="280" stroke="#374151" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="970" y1="430" x2="1080" y2="430" stroke="#374151" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="970" y1="580" x2="1080" y2="580" stroke="#374151" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <path d="M1180,700 C980,760 430,760 220,700" fill="none" stroke="#0f766e" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="700" y="745" text-anchor="middle" class="small">Training data + loss L(y, ŷ) update parameters θ</text>
+</svg>

@@ -1,0 +1,18 @@
+%%{init: {"theme":"default","themeVariables":{"background":"transparent","lineColor":"#6b7280","arrowheadColor":"#6b7280","clusterBorder":"#6b7280","fontFamily":"inherit"},"flowchart":{"curve":"linear"}}}%%
+
+flowchart TB
+
+  subgraph R1[ ]
+    direction LR
+    x["Input x"] --> z1["Layer 1: z₁ = W₁x + b₁"] --> a1["a₁ = σ(z₁)"]
+  end
+
+  subgraph R2[ ]
+    direction LR
+    z2["Layer 2: z₂ = W₂a₁ + b₂"] --> a2["a₂ = σ(z₂)"] --> dots["…"] --> yhat["Output: ŷ = f(x)"]
+  end
+
+  R1 --> R2
+
+  style R1 fill:transparent,stroke:transparent
+  style R2 fill:transparent,stroke:transparent

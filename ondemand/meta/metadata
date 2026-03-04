@@ -25,6 +25,11 @@
             "title": "ML Unsupervised",
             "file": "ML_Unsupervised_NetFlow_Classification",
             "panel": "jupyter"
+        },
+        {
+            "title": "DL Supervised",
+            "file": "DL_Supervised_NetFlow_Classification",
+            "panel": "jupyter"
         }
     ]
 }

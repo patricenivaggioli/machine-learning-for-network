@@ -1,0 +1,35 @@
+%%{init: {"theme":"default","themeVariables":{"background":"transparent","lineColor":"#6b7280","arrowheadColor":"#6b7280","clusterBorder":"#6b7280","fontFamily":"inherit"},"flowchart":{"curve":"linear"}}}%%
+
+flowchart LR
+  %% Neuron building block: z = wᵀx + b ; a = σ(z)
+
+  subgraph Inputs["Inputs"]
+    x1["x₁"]
+    x2["x₂"]
+    xd["…"]
+    xn["xₙ"]
+  end
+
+  subgraph Weights["Weights"]
+    w1["w₁"]
+    w2["w₂"]
+    wd["…"]
+    wn["wₙ"]
+  end
+
+  x1 --> dot["Σ (wᵢ·xᵢ)"]
+  x2 --> dot
+  xd --> dot
+  xn --> dot
+
+  w1 -.-> dot
+  w2 -.-> dot
+  wd -.-> dot
+  wn -.-> dot
+
+  dot --> addb["(+ b)"]
+  b["b"] --> addb
+
+  addb --> z["z = wᵀx + b"]
+  z --> act["σ(·)"]
+  act --> a["a = σ(z)"]

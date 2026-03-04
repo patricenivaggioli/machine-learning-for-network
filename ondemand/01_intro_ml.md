@@ -154,7 +154,7 @@ Example:
 </div>
 <div>
 
-<img src="assets/model_blackbox.svg" style="width: 100%; max-height: 70vh;" />
+<img src="images/model_blackbox.svg" style="width: 100%; max-height: 70vh;" />
 
 </div>
 </div>
