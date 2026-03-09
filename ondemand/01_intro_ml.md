@@ -105,14 +105,11 @@ ML is everywhere.
 
 Dataset:
 
-(x₁, y₁)
-(x₂, y₂)
-…
-(xₙ, yₙ)
+- (x₁, y₁), (x₂, y₂), …, (xₙ, yₙ)
 
 Goal: Learn a function
 
-f(x) ≈ y
+- f(x) ≈ y
 
 Two main tasks:
 
@@ -137,9 +134,6 @@ Learning = Finding optimal weights ```w```
 
 # What is a Model?
 
-<div class="columns">
-<div>
-
 A model is:
 
 - A mathematical function
@@ -150,14 +144,6 @@ Example:
 - Linear model
 - Decision tree
 - Neural network
-
-</div>
-<div>
-
-<img src="images/model_blackbox.svg" style="width: 100%; max-height: 70vh;" />
-
-</div>
-</div>
 
 ---
 
@@ -178,13 +164,13 @@ The loss function measures how wrong we are.
 
 Examples:
 
-Regression:
+- Regression:
 
-Mean Squared Error (MSE)
+  - Mean Squared Error (MSE)
 
-Classification:
+- Classification:
 
-Cross-Entropy Loss
+  - Cross-Entropy Loss
 
 Learning = minimizing loss
 
@@ -194,11 +180,11 @@ Learning = minimizing loss
 
 We minimize loss using:
 
-## Gradient Descent
+- Gradient Descent
 
 Update rule:
 
-w = w - η ∇L(w)
+- w = w - η ∇L(w)
 
 Where:
 - η = learning rate
@@ -218,6 +204,22 @@ Overfitting:
 
 Goal:
 Balance bias and variance.
+
+---
+
+# Evaluation Metrics
+
+Regression:
+- MSE
+- MAE
+- R²
+
+Classification:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
 
 ---
 
@@ -254,32 +256,6 @@ Used in:
 
 ---
 
-# What is Deep Learning?
-
-Deep Learning = ML using neural networks with many layers.
-
-Key ideas:
-- Representation learning
-- Backpropagation
-- Large-scale data
-- GPU acceleration
-
----
-
-# Neural Network (High-Level View)
-
-Each layer:
-
-z = Wx + b
-a = activation(z)
-
-Common activations:
-- ReLU
-- Sigmoid
-- Softmax
-
----
-
 # Machine Learning Pipeline
 
 1. Data collection
@@ -291,22 +267,6 @@ Common activations:
 7. Monitoring
 
 ML is iterative.
-
----
-
-# Evaluation Metrics
-
-Regression:
-- MSE
-- MAE
-- R²
-
-Classification:
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
 
 ---
 
@@ -335,18 +295,6 @@ It is both:
 - Mathematical
 - Engineering-driven
 - Data-centric
-
----
-
-# Next Steps
-
-To go further:
-
-- Python + NumPy
-- scikit-learn
-- PyTorch / TensorFlow
-- Real datasets
-- Build your first model
 
 ---
 
